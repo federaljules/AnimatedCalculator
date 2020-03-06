@@ -1,0 +1,117 @@
+body{
+    background-color: #313131
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    background-color: #313131;
+    height: 100vh;
+    margin: auto;
+    padding-left: 30%;
+    padding-top: 10%;
+}
+
+h1{
+
+    
+    margin-left: 20%;
+    background-color: #313131;
+    padding: 0;
+    
+}
+
+input[type=number]{
+    margin-bottom: 5%;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    padding: 8px;
+    border-bottom: .5px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-left: 20px;
+} 
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#calc{
+    height: 50%;
+}
+
+#btn{
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+    width: auto;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px white;
+    color: white;
+    transition: .4s;
+    margin-left: 20px;
+}
+
+#btn:hover{
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: auto;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: solid .5px black;
+    color: black;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#tulos{
+    display: inline-block;
+    opacity: 0;
+    font-size: 42pt;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    color: green;
+}
+
+#content1, #content3, #content2{
+    display: inline-block;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin-top: 2%;
+    font-size: 72pt;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    #content1, #content3, #content2{
+        font-size: 30pt;
+    }
+
+    #tulos{
+        font-size: 22pt;
+    }
+  }
+
+select{
+    width: 130px!important;
+    background-color: #313131!important;
+    color: white!important;
+    margin-left: 10px!important;
+    margin-bottom: none!important;
+}
+
+
+
